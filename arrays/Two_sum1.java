@@ -11,7 +11,7 @@ public class Two_sum1 {
     int n[] = new int[2];
 
     for (int i=0; i<arr.length; i++){
-        for (int j=i+1; j<arr.length; j++){
+        for (int j=i+1; j<arr.length; j++){ // n ^2  time complexity
             if (arr[i]+ arr[j]==target){
                 n[0]=i;
                 n[1]=j;
