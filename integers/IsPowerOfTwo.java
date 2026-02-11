@@ -9,7 +9,7 @@ public class IsPowerOfTwo {
             a=a/2;
         }
         if (a==1){
-            System.out.println("true"); // Time complexity: O(1)
+            System.out.println("true"); // Time complexity: O(d)
         }
         else{
         System.out.println("false");
