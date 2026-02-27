@@ -10,3 +10,5 @@ class Factorial {
         return n * factorial(n - 1);
     }
 }
+
+// Time complexity : O(n)
