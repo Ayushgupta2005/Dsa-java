@@ -28,7 +28,7 @@ public class FindFreq {
 
     public static void main(String[] args) {
         
-        int arr[] = {1,2,2,4,5,6,3,4,5};
+        int arr[] = {1,2,2,4,5,6,3,4,5,9};
         int n=2;
 
         int ans = findFreq(arr, n);
