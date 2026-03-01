@@ -12,6 +12,6 @@ public class Count_digit {
     public static void main(String[] args) {
         int num = 12345;
         System.out.println("Number of digits in " + num + " = " + countDigits(num));
-    } // Time complexity: O(d)
+    } // Time complexity: O( d)
 }
     
