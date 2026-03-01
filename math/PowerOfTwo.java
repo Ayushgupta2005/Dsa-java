@@ -11,7 +11,7 @@ public class PowerOfTwo {
         }
 
         if (n==1){
-            return true; //Time Complexity: O(log n)
+            return true; //. Time Complexity: O(log n)
         }
         else{
             return false;
