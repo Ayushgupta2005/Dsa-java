@@ -1,3 +1,5 @@
+package patterns;
+
 public class Sqare_Alphabet {
     public static void main(String[] args) {
         
