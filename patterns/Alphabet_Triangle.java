@@ -1,3 +1,5 @@
+package patterns;
+
 public class Alphabet_Triangle {
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package patterns;
-
 public class Floyd_Triangle {
     public static void main(String[] args) {
         int n = 5;
