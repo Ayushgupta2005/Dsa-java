@@ -19,6 +19,4 @@ public class Reverse_array {
             System.out.print(arr[l]+ " ");
 
         }
-    }
-    
-}
+    }}
