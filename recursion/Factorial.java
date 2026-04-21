@@ -1,13 +1,19 @@
 package recursion;
 
 class Factorial {
-    public int factorial(int n) {
-        // Base case
-        if (n == 0 || n == 1) {
+
+    static int Fcatorial(int n){
+        if(n==0 || n==1){
             return 1;
         }
-        // Recursive call
-        return n * factorial(n - 1);
+
+        return n * Fcatorial(n-1);
+    }
+
+    public static void main(String[] args) {
+        int fact = Fcatorial(5);
+        System.out.println(fact);
+    
     }
 }
 
