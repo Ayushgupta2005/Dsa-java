@@ -1,24 +1,26 @@
 package recursion;
+public class CountEvenDigit{
 
-public class countEvenDigit {
-
-    static int countEvenDigits(int n) {
-        // Base case
-        if (n == 0) {
+    public static int countEven(int n){
+        if(n==0){
             return 0;
         }
-
-        int lastDigit = n % 10;
-        if (lastDigit % 2 == 0) {
-            return 1 + countEvenDigits(n / 10);
-        } else {
-            return countEvenDigits(n / 10);
+        int lastdigit = n%10;
+        if(lastdigit %2 ==0){
+            return 1 + countEven(n/10);
         }
+        else{
+            return countEven(n/10);
+        }
+
     }
 
     public static void main(String[] args) {
-        int num = 123456;
-        System.out.println("Count of even digits in " + num + " = " + countEvenDigits(num));
+        
+        int number =123456;
+        int sol = countEven(number);
+        System.out.println(" even digits " + sol);
     }
-}
     
+    
+}
