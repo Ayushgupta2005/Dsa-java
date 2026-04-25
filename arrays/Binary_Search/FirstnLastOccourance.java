@@ -1,3 +1,5 @@
+package Binary_Search;
+
 public class FirstnLastOccourance {
     public static int[] searchRange(int[] nums, int target) {
 

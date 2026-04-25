@@ -1,3 +1,5 @@
+package Binary_Search;
+
 public class FloorInSortedArray {
     // find the index (0-based) of the largest element in arr[]
     // that is less than or equal to x.

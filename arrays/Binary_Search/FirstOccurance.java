@@ -1,3 +1,5 @@
+package Binary_Search;
+
 public class FirstOccurance {
 
     public static void main(String[] args) {
