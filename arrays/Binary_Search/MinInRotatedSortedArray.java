@@ -34,5 +34,4 @@ public class MinInRotatedSortedArray {
         System.out.println(findMin(arr));
     }
 
-    
-}
+    // Time complexity: O(log n)
