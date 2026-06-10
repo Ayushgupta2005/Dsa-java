@@ -1,27 +1,33 @@
+import java.util.*;
 public class Practice {
+
     public static void main(String[] args) {
-        
-        int arr[] ={5,3,2,1,8};
 
-        for(int i=0; i<arr.length; i++){
-            int minIndex=i;
-            for(int j=i+1; j<arr.length; j++){
-                if(arr[j]<arr[minIndex]){
-                    minIndex=j;
-                }
+        String str = "aabbbcccdddd";
 
+        HashMap<Character,Integer> map = new HashMap<>();
+
+        for(int i=0; i<str.length(); i++){
+            if(map.containsKey(str.charAt(i))){
+                map.put(str.charAt(i),map.get(str.charAt(i))+1);
+            }
+            else{
+                map.put(str.charAt(i),1);
+            }
+        }
+        int max=0;
+
+
+        for(Character key: map.keySet()){
+
+            if(map.get(key)>max){
+                max = map.get(key);
             }
 
-            // Swap operation 
-            int temp =arr[i];
-            arr[i]=arr[minIndex];
-            arr[minIndex]=temp;
         }
 
+        System.out.println(max);
 
-        for(int i=0; i<arr.length ;i++){
-            System.out.print(arr[i]+ " ");
-        }
     }
     
 }

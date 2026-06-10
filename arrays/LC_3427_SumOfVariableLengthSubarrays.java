@@ -2,10 +2,8 @@
  * Problem: Sum of Variable Length Subarrays
  *
  * Given an integer array nums of size n.
- *
  * For each index i:
  * start = max(0, i - nums[i])
- *
  * Consider the subarray nums[start...i].
  * Return the total sum of all such subarrays.
  * 
@@ -50,11 +48,9 @@ public class LC_3427_SumOfVariableLengthSubarrays {
     public static void main(String[] args) {
         int[] nums1 = {2, 3, 1};
         System.out.println("Output 1: " + subarraySum(nums1));
-        // Expected: 11
 
         int[] nums2 = {3, 1, 1, 2};
         System.out.println("Output 2: " + subarraySum(nums2));
-        // Expected: 13
 
         int[] nums3 = {};
         System.out.println("Output 3: " + subarraySum(nums3));
